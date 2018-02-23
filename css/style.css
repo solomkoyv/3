@@ -119,15 +119,43 @@ header .banner #button {
   margin: 2% 3%;
 }
 .wrap_portfolio .portfolio .portfolio_block div a {
-  width: 170px;
+  position: relative;
+  width: 230px;
   height: 180px;
   border-radius: 50%;
-  margin: 4% 6%;
+  margin: 4% 11%;
 }
-.wrap_portfolio .portfolio .portfolio_block div a:hover {
+.wrap_portfolio .portfolio .portfolio_block div a .bg_port {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: #FFF;
   background: #16a086;
-  opacity: 0.75;
-  z-index: 99;
+  text-align: center;
+  opacity: 0.5;
+}
+.wrap_portfolio .portfolio .portfolio_block div a .bg_port img {
+  position: relative;
+  top: 20%;
+  width: 44px;
+  height: 44px;
+  background: #ccc;
+  border-radius: 50%;
+}
+.wrap_portfolio .portfolio .portfolio_block div a .bg_port p {
+  display: block;
+  position: absolute;
+  width: 95px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrap_portfolio .portfolio .portfolio_block div a:hover .bg_port {
+  display: block;
 }
 .wrap_about_us {
   background: #16a086;

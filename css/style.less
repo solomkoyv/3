@@ -129,19 +129,50 @@ header{
         justify-content: space-around;
         margin: 2% 3%;
         a{
-          width: 170px;
+          position: relative;
+          width: 230px;
           height: 180px;
           border-radius: 50%;
-          margin: 4% 6%;
-          &:hover{
+          margin: 4% 11%;
+          // background: url(../img/img-1.png);
+          .bg_port{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            color: #FFF;
             background: #16a086;
-            opacity: 0.75;
-            z-index: 99;
-          }
+            opacity: 0.5;
+            text-align: center;
+            opacity: 0.5;
+            img{
+              position: relative;
+              top: 20%;
+              width: 44px;
+              height: 44px;
+              background: #ccc;
+
+              border-radius: 50%;
+            }
+            p{
+             display: block;
+             position: absolute;
+             width: 95px;
+             top: 60%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+           }
+         }
+         &:hover .bg_port{
+          display: block;
         }
       }
     }
   }
+}
 }
 
 .wrap_about_us{
