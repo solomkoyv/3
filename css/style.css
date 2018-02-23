@@ -102,6 +102,9 @@ header .banner #button {
 .wrap_portfolio .portfolio ul a {
   text-decoration: none;
 }
+.wrap_portfolio .portfolio ul a:hover li {
+  background: #118E75;
+}
 .wrap_portfolio .portfolio ul li {
   background: #1bbc9b;
   color: #fff;
@@ -271,7 +274,7 @@ header .banner #button {
   font-family: Lato;
   font-size: 14px;
   font-style: italic;
-  margin-right: 48px;
+  margin-right: 47px;
   margin-bottom: 5px;
 }
 .contact_us .body_contact .input #email {
@@ -296,7 +299,7 @@ header .banner #button {
   margin: 3% 0;
 }
 .contact_us .body_contact .inform {
-  margin-top: 3%;
+  margin-top: 4%;
 }
 .contact_us #button {
   position: absolute;
